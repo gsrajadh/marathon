@@ -65,7 +65,6 @@ class ExpungeOverdueLostTasksActor(
     isExpired(since, now)
   }
 
-
   /**
     * @return true if task has an unreachable status that is [[mesosphere.marathon.core.task.jobs.TaskJobsConfig.taskLostExpungeGC]]
     *         millis older than now.
